@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Personal de Jonathan Meza Rangel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #004d98;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #a50044;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #004d98;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jonathan Meza Rangel</h1>
+    </header>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#acerca">Acerca de</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <section id="inicio">
+        <h2>Bienvenido a mi página personal</h2>
+        <p>Hola, mi nombre es Jonathan Meza Rangel. Actualmente estoy estudiando el bachillerato y tengo varios intereses y hobbies que me apasionan.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.svg" alt="Escudo del Fútbol Club Barcelona">
+    </section>
+    <section id="acerca">
+        <h2>Acerca de mí</h2>
+        <p>Me gusta coleccionar cartas de Pokémon y disfruto jugar videojuegos en mi tiempo libre. Además, estoy enfocado en mis estudios de bachillerato para alcanzar mis metas académicas.</p>
+        <h3>Mis intereses y habilidades:</h3>
+        <ul>
+            <li>Coleccionar cartas de Pokémon</li>
+            <li>Jugar videojuegos</li>
+            <li>Estudiar y aprender cosas nuevas</li>
+        </ul>
+    </section>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Puedes contactarme a través de mi correo electrónico: <a href="mailto:jonathanmezar5--4@dgb.edu.mx">jonathanmezar5--4@dgb.edu.mx</a></p>
+    </section>
+    <footer>
+        <p>Derechos reservados &copy; 2025 Jonathan Meza Rangel</p>
+    </footer>
+</body>
+</html>
